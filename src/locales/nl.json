@@ -1,0 +1,9 @@
+{
+    "signUp": "Registreren",
+    "username": "Gebruikersnaam",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "passwordRepeat": "Herhaal wachtwoord",
+    "passwordMismatchValidation": "Wachtwoord komt niet overheen",
+    "accountActivationNotification": "Controleer uw e-mail om uw account te activeren"
+}
