@@ -4,7 +4,7 @@
             <h3>Users</h3>
         </div>
         <ul class="list-group list-group-flush">
-            <li class="list-group-item list-group-item-action" v-for="user in page.content" :key="user.id">
+            <li class="list-group-item list-group-item-action" v-for="user in page.content" :key="user.id" @click="$router.push('/user/' + user.id)">
                 {{user.username}}
             </li>
         </ul>
@@ -40,3 +40,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+li {
+    cursor: pointer;
+}
+</style>
